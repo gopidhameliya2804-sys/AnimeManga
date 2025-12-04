@@ -63,12 +63,10 @@ function Footer() {
                 <h5 className="h-24 bold color-white mb-24">Top Links</h5>
                 <ul className="link unstyled">
                   <li>
-                    <Link to="/"></Link>
-                    Home
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <Link to="listing"></Link>
-                    Animes
+                    <Link to="listing">Animes</Link>
                   </li>
                   <li>
                     <Link to="mangalisting">Mangas</Link>
@@ -78,12 +76,12 @@ function Footer() {
               <div className="list">
                 <h5 className="h-24 bold color-white mb-24">Information</h5>
                 <ul className="link unstyled">
-                  <li>
+                  {/*<li>
                     <Link to="signup">Sign up</Link>
                   </li>
                   <li>
                     <Link to="login">Login</Link>
-                  </li>
+                  </li>*/}
                   <li>About Us</li>
                 </ul>
               </div>
@@ -108,9 +106,9 @@ function Footer() {
                   <li>
                     <a href="#">Privacy Policy</a>
                   </li>
-                  <li>
+                  {/*<li>
                     <a href="#">Contact us</a>
-                  </li>
+                  </li>*/}
                 </ul>
               </div>
             </div>

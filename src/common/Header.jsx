@@ -85,7 +85,7 @@ function Header() {
                         </div>
                       </a>
                     </li>
-                    <li className="has-children">
+                    {/*<li className="has-children">
                       <a href="javascript:void(0);">
                         <img src="assets/media/author/profile.png" alt />
                       </a>
@@ -97,7 +97,7 @@ function Header() {
                           <Link to="login">Login</Link>
                         </li>
                       </ul>
-                    </li>
+                    </li>*/}
                   </ul>
                 </div>
               </div>
